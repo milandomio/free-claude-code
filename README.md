@@ -102,7 +102,7 @@ uv run uvicorn server:app --host 0.0.0.0 --port 8082
 **Terminal 2** — Run Claude Code:
 
 ```bash
-ANTHROPIC_AUTH_TOKEN=freecc ANTHROPIC_BASE_URL=http://localhost:8082 claude
+ANTHROPIC_AUTH_TOKEN=freecc ANTHROPIC_BASE_URL=http://localhost:8082 claude --model claude-sonnet-4-6
 ```
 
 That's it! Claude Code now uses your configured provider for free.
